@@ -3,7 +3,7 @@ name = "cliff-openenv"
 version = "0.1.0"
 description = "Cliff Walking OpenEnv RL environment"
 authors = [
-    {name = "Minal Agrawal"}
+    { name = "Minal Agrawal" }
 ]
 dependencies = [
     "fastapi",
@@ -13,7 +13,7 @@ dependencies = [
 ]
 
 [project.scripts]
-server = "server.app:main"   
+server = "server.app:main"
 
 [build-system]
 requires = ["setuptools", "wheel"]
