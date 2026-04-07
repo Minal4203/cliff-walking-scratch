@@ -1,3 +1,8 @@
 from api import app
+import uvicorn
 
-# This exposes your FastAPI app for OpenEnv
+def main():
+    uvicorn.run("api:app", host="0.0.0.0", port=7860)
+
+if __name__ == "__main__":
+    main()
