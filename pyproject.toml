@@ -1,0 +1,16 @@
+[project]
+name = "cliff-openenv"
+version = "0.1.0"
+description = "Cliff Walking OpenEnv RL environment"
+authors = [
+    {name = "Minal Agrawal"}
+]
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "requests"
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
